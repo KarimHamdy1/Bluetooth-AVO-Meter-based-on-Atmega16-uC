@@ -6,6 +6,7 @@ The project uses the ADC peripheral to measure the voltage, current and resistan
 Here is the schematic from proteues:
 
 
+![Circuit schematic](https://github.com/KarimHamdy1/Bluetooth-AVO-Meter-based-on-Atmega16-uC/blob/master/schematic.JPG)
 Some future work for those interested : 
   - currently only DC voltage are supported, to support AC and wider range of DC voltage we might need a bridge circuit and Op-amp circuits.
   - this project uses the ADC peripheral of the ATmega16, Which is has 10-bit resolution, for more sensitive measurement, We can use Digital Multimer IC.
